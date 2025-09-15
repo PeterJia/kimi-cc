@@ -111,6 +111,8 @@ else
     echo "# Claude Code environment variables" >> "$rc_file"
     echo "export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic/" >> "$rc_file"
     echo "export ANTHROPIC_API_KEY=$api_key" >> "$rc_file"
+    echo "export ANTHROPIC_MODEL=kimi-k2-turbo-preview" >> "$rc_file"
+    echo "export ANTHROPIC_SMALL_FAST_MODEL=kimi-k2-turbo-preview" >> "$rc_file"
     echo "✅ Environment variables added to $rc_file"
 fi
 
